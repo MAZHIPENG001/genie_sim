@@ -7,8 +7,11 @@ app:
   enable_playback: true
   enable_pub_depth_camera: true
 benchmark:
-  task_name: "table_task_g1"
+#  task_name: "table_task_g1"
+#  sub_task_name: "pick_block_color"sort_fruit
+  task_name: "table_task_g2"
   sub_task_name: "pick_block_color"
   model_arc: ""
+  record: true
 layout:
   seed: 1

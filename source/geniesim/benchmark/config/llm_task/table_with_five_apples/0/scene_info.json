@@ -1,0 +1,466 @@
+{
+  "layout": {
+    "apple_07daa0cd": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "red",
+        "fruit",
+        "apple_1",
+        "right"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "apple_07daa0cd"
+      ],
+      "usd": "apple",
+      "xyz": [
+        -0.338,
+        -0.183,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "apple_24c49d3a": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "red",
+        "fruit",
+        "apple_2",
+        "left"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "apple_24c49d3a"
+      ],
+      "usd": "apple",
+      "xyz": [
+        0.135,
+        0.089,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "apple_76991b39": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "red",
+        "fruit",
+        "apple_5",
+        "left"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "apple_76991b39"
+      ],
+      "usd": "apple",
+      "xyz": [
+        -0.134,
+        0.238,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "apple_8877aa77": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "red",
+        "fruit",
+        "apple_4",
+        "left"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "apple_8877aa77"
+      ],
+      "usd": "apple",
+      "xyz": [
+        -0.239,
+        0.309,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "apple_b1779882": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "red",
+        "fruit",
+        "apple_3",
+        "left"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "apple_b1779882"
+      ],
+      "usd": "apple",
+      "xyz": [
+        -0.394,
+        0.055,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "table_6151703b": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "round",
+          "modern",
+          "stable",
+          "stylish",
+          "elegant"
+        ],
+        "dimensions": [
+          1.1671121716499329,
+          1.145925521850586,
+          0.7762744277715683
+        ],
+        "full_description": [
+          "A round table with a light wood-grain top and a black pedestal base."
+        ],
+        "materials": [
+          "wood",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "round_table"
+        ],
+        "shape": "round",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "wood",
+        "dining_table",
+        "center"
+      ],
+      "tags": [
+        "root_scene_c0a5816f",
+        "table_with_five_apples_69b8f8f2",
+        "place_apples_on_table_73ca5031",
+        "table_6151703b"
+      ],
+      "usd": "table_001",
+      "xyz": [
+        0.0,
+        0.0,
+        0.001
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_c0a5816f",
+          "target": "table_with_five_apples_69b8f8f2"
+        },
+        {
+          "source": "table_with_five_apples_69b8f8f2",
+          "target": "place_apples_on_table_73ca5031"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "table_6151703b"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "apple_07daa0cd"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "apple_24c49d3a"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "apple_b1779882"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "apple_8877aa77"
+        },
+        {
+          "source": "place_apples_on_table_73ca5031",
+          "target": "apple_76991b39"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_c0a5816f"
+        },
+        {
+          "id": "table_with_five_apples_69b8f8f2"
+        },
+        {
+          "id": "place_apples_on_table_73ca5031"
+        },
+        {
+          "id": "table_6151703b",
+          "tags": [
+            "table",
+            "wood",
+            "dining_table",
+            "center"
+          ]
+        },
+        {
+          "id": "apple_07daa0cd",
+          "tags": [
+            "apple",
+            "red",
+            "fruit",
+            "apple_1",
+            "right"
+          ]
+        },
+        {
+          "id": "apple_24c49d3a",
+          "tags": [
+            "apple",
+            "red",
+            "fruit",
+            "apple_2",
+            "left"
+          ]
+        },
+        {
+          "id": "apple_b1779882",
+          "tags": [
+            "apple",
+            "red",
+            "fruit",
+            "apple_3",
+            "left"
+          ]
+        },
+        {
+          "id": "apple_8877aa77",
+          "tags": [
+            "apple",
+            "red",
+            "fruit",
+            "apple_4",
+            "left"
+          ]
+        },
+        {
+          "id": "apple_76991b39",
+          "tags": [
+            "apple",
+            "red",
+            "fruit",
+            "apple_5",
+            "left"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_five_apples",
+  "seed": 251612159
+}

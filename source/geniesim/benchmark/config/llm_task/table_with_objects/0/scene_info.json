@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "apple_aabafa68": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_46e2399e",
+        "table_with_objects_439ccd01",
+        "apple_aabafa68"
+      ],
+      "usd": "apple",
+      "xyz": [
+        0.0,
+        0.0,
+        0.047
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.939042,
+        -0.343801
+      ]
+    },
+    "sprite_3174e068": {
+      "description": {
+        "color": "green",
+        "descriptive_terms": [
+          "cylindrical",
+          "green",
+          "metallic",
+          "beverage",
+          "packaged"
+        ],
+        "dimensions": [
+          0.06593398749828339,
+          0.11382035911083221,
+          0.06569337099790573
+        ],
+        "full_description": [
+          "A green aluminum soda can with white Chinese characters and a silver pull-tab top."
+        ],
+        "materials": [
+          "metal",
+          "plastic"
+        ],
+        "object_category": [
+          "container",
+          "beverage container"
+        ],
+        "semantic_name": [
+          "sprite_can"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "sprite",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_46e2399e",
+        "table_with_objects_439ccd01",
+        "sprite_3174e068"
+      ],
+      "usd": "sprite",
+      "xyz": [
+        -0.001,
+        -0.002,
+        0.058
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.894455,
+        0.447158
+      ]
+    },
+    "table_0bb3393d": {
+      "description": {
+        "color": "white",
+        "descriptive_terms": [
+          "simple",
+          "modern",
+          "compact",
+          "stable",
+          "functional"
+        ],
+        "dimensions": [
+          0.1687,
+          0.0668,
+          0.0668
+        ],
+        "full_description": [
+          "A white rectangular table with a flat top and four slender legs, viewed from multiple angles."
+        ],
+        "materials": [
+          "plastic",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "table"
+        ],
+        "shape": "rectangular",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_46e2399e",
+        "table_with_objects_439ccd01",
+        "table_0bb3393d"
+      ],
+      "usd": "table_000",
+      "xyz": [
+        0.0,
+        0.0,
+        0.367
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_46e2399e",
+          "target": "table_with_objects_439ccd01"
+        },
+        {
+          "source": "table_with_objects_439ccd01",
+          "target": "table_0bb3393d"
+        },
+        {
+          "source": "table_with_objects_439ccd01",
+          "target": "sprite_3174e068"
+        },
+        {
+          "source": "table_with_objects_439ccd01",
+          "target": "apple_aabafa68"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_46e2399e"
+        },
+        {
+          "id": "table_with_objects_439ccd01"
+        },
+        {
+          "id": "table_0bb3393d",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "sprite_3174e068",
+          "tags": [
+            "sprite",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "apple_aabafa68",
+          "tags": [
+            "apple",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 396172988
+}

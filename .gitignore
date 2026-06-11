@@ -6,7 +6,8 @@ saved_task/
 
 assets/
 assets
-
+openpi/
+mirrormetech/dataset
 **/*/data/
 **/__pycache__
 *.pyc
@@ -47,3 +48,8 @@ logs
 .cache
 
 **/*.egg-info
+*.so
+source/teleop/app/vendors/lib/
+source/teleop/app/share/
+node_information.txt
+.idea/

@@ -81,6 +81,7 @@
     }
   },
   "robot": {
+    "_robot_usd": "robot/G2_omnipicker/robot_fix.usda",
     "arm": "right",
     "base_prim_path": "/genie",
     "dof_nums": 7,
@@ -89,7 +90,7 @@
     "lock_joints": [],
     "robot_description": "/G2_omnipicker/config.yaml",
     "robot_name": "G2_omnipicker",
-    "robot_usd": "robot/G2_omnipicker/robot_fix.usda",
+    "robot_usd": "robot/G2_omnipicker/robot.usda",
     "urdf_name": "/G2_omnipicker/G2_omnipicker.urdf"
   }
 }

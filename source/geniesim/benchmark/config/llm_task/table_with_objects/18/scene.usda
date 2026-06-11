@@ -1,0 +1,42 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def "World"
+{
+    def "Objects"
+    {
+        def Xform "table_f36a2ec1" (
+            prepend payload = @../../../../../assets/objects/edited/table_001/Aligned.usda@
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0, 0, 0.001)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "facecleaner_206c7ea1" (
+            prepend payload = @../../../../../assets/objects/genie/facecleaner/Aligned.usda@
+        )
+        {
+            quatf xformOp:orient = (-0.047458, 0, 0, 0.998873)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0.15, -0.2, 0.846)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "cola_cd9c8c62" (
+            prepend payload = @../../../../../assets/objects/genie/cola/Aligned.usda@
+        )
+        {
+            quatf xformOp:orient = (0.984939, 0, 0, -0.172903)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0.15, 0.2, 0.835)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+}

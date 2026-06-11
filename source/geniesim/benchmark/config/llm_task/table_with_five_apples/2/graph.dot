@@ -1,0 +1,37 @@
+strict digraph "" {
+	graph [rankdir=LR];
+	root_scene_42cbfe29 -> table_with_five_apples_747033e4;
+	table_with_five_apples_747033e4 -> place_apples_on_table_ceb7d4a0;
+	table_7f68738c	[tags="['table', 'wood', 'dining_table', 'center']"];
+	place_apples_on_table_ceb7d4a0 -> table_7f68738c;
+	apple_e8c72ee2	[tags="['apple', 'red', 'fruit', 'apple_1', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_e8c72ee2;
+	apple_5e2b7095	[tags="['apple', 'red', 'fruit', 'apple_2', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_5e2b7095;
+	apple_4049b359	[tags="['apple', 'red', 'fruit', 'apple_3', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_4049b359;
+	apple_5bbc8fac	[tags="['apple', 'red', 'fruit', 'apple_4', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_5bbc8fac;
+	apple_53f9c145	[tags="['apple', 'red', 'fruit', 'apple_5', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_53f9c145;
+	apple_983ed4eb	[tags="['apple', 'red', 'fruit', 'apple_6', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_983ed4eb;
+	apple_ec97f352	[tags="['apple', 'red', 'fruit', 'apple_7', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_ec97f352;
+	apple_e3d50126	[tags="['apple', 'red', 'fruit', 'apple_8', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_e3d50126;
+	apple_40a863dc	[tags="['apple', 'red', 'fruit', 'apple_9', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_40a863dc;
+	apple_e0c48b08	[tags="['apple', 'red', 'fruit', 'apple_10', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_e0c48b08;
+	apple_690ec3ce	[tags="['apple', 'red', 'fruit', 'apple_11', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_690ec3ce;
+	apple_a6147f09	[tags="['apple', 'red', 'fruit', 'apple_12', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_a6147f09;
+	apple_9f20ec6a	[tags="['apple', 'red', 'fruit', 'apple_13', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_9f20ec6a;
+	apple_4b76caa3	[tags="['apple', 'red', 'fruit', 'apple_14', 'right']"];
+	place_apples_on_table_ceb7d4a0 -> apple_4b76caa3;
+	apple_2a97b525	[tags="['apple', 'red', 'fruit', 'apple_15', 'left']"];
+	place_apples_on_table_ceb7d4a0 -> apple_2a97b525;
+}

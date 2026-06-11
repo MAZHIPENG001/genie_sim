@@ -64,7 +64,7 @@ from geniesim.app.workflow.ui_builder import UIBuilder
 
 
 def main():
-    """Main function."""
+    """Main function."""# 构建世界与三大对象:world/ui_builder/task_manager
 
     world = World(
         stage_units_in_meters=1,
@@ -78,7 +78,7 @@ def main():
         world._physics_context.enable_ccd(flag=True)
     ui_builder = UIBuilder(world=world)
     task_manager = TaskManager(
-        api_core=APICore(ui_builder=ui_builder, config=cfg),
+        api_core=APICore(ui_builder=ui_builder, config=cfg),# 创建了 ROS 节点对象
         benchmark_config=cfg.benchmark,
     )
 
@@ -94,19 +94,19 @@ def main():
             _last_time = now
 
         if task_manager:
-            task_manager.api_core.physics_step()
-            task_manager.api_core.on_ros_tick(step_size)
+            task_manager.api_core.physics_step()# 执行排队到物理线程的任务
+            task_manager.api_core.on_ros_tick(step_size)# ★ ROS 的心跳
 
     ui_builder.my_world.add_physics_callback("on_physics", callback_fn=callback_physics)
-    task_manager.start()
+    task_manager.start()# 子线程:跑业务逻辑
 
     step = 0
-    try:
-        while simulation_app.is_running():
+    try:# 双循环结构（核心）
+        while simulation_app.is_running():# 主线程
             ui_builder.my_world.step(render=True)
             task_manager.api_core.render_step()
 
-            if task_manager.api_core.exit:
+            if task_manager.api_core.exit:# 每一物理步会触发 callback_physics (app.py:88)，里面调用
                 task_manager.api_core.post_process()
                 break
 

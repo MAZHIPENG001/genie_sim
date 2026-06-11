@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "cola_976441a1": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "cylindrical",
+          "red",
+          "metallic",
+          "beverage",
+          "branded"
+        ],
+        "dimensions": [
+          0.0646,
+          0.1152,
+          0.0646
+        ],
+        "full_description": [
+          "A red aluminum soda can with white Chinese text and logo, featuring a silver top and bottom."
+        ],
+        "materials": [
+          "metal",
+          "plastic"
+        ],
+        "object_category": [
+          "container",
+          "beverage can"
+        ],
+        "semantic_name": [
+          "cola_can"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "cola",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_ae429868",
+        "table_with_objects_1a22e57e",
+        "cola_976441a1"
+      ],
+      "usd": "cola",
+      "xyz": [
+        0.151,
+        0.199,
+        0.79
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.760261,
+        -0.649618
+      ]
+    },
+    "facecleaner_5ea4a261": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "cylindrical",
+          "white",
+          "blue",
+          "printed",
+          "cosmetic"
+        ],
+        "dimensions": [
+          0.03400098532438278,
+          0.1400732398033142,
+          0.05983749404549599
+        ],
+        "full_description": [
+          "A white and blue gradient tube labeled 'Face Cleaner' with a green logo and Chinese text, featuring a white cap."
+        ],
+        "materials": [
+          "plastic",
+          "paper"
+        ],
+        "object_category": [
+          "cosmetic",
+          "face cleaner"
+        ],
+        "semantic_name": [
+          "face cleaner"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "facecleaner",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_ae429868",
+        "table_with_objects_1a22e57e",
+        "facecleaner_5ea4a261"
+      ],
+      "usd": "facecleaner",
+      "xyz": [
+        0.15,
+        -0.2,
+        0.802
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.865122,
+        0.501562
+      ]
+    },
+    "table_e485b3c4": {
+      "description": {
+        "color": "white",
+        "descriptive_terms": [
+          "simple",
+          "modern",
+          "compact",
+          "stable",
+          "functional"
+        ],
+        "dimensions": [
+          0.1687,
+          0.0668,
+          0.0668
+        ],
+        "full_description": [
+          "A white rectangular table with a flat top and four slender legs, viewed from multiple angles."
+        ],
+        "materials": [
+          "plastic",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "table"
+        ],
+        "shape": "rectangular",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_ae429868",
+        "table_with_objects_1a22e57e",
+        "table_e485b3c4"
+      ],
+      "usd": "table_000",
+      "xyz": [
+        0.0,
+        0.0,
+        0.367
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_ae429868",
+          "target": "table_with_objects_1a22e57e"
+        },
+        {
+          "source": "table_with_objects_1a22e57e",
+          "target": "table_e485b3c4"
+        },
+        {
+          "source": "table_with_objects_1a22e57e",
+          "target": "facecleaner_5ea4a261"
+        },
+        {
+          "source": "table_with_objects_1a22e57e",
+          "target": "cola_976441a1"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_ae429868"
+        },
+        {
+          "id": "table_with_objects_1a22e57e"
+        },
+        {
+          "id": "table_e485b3c4",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "facecleaner_5ea4a261",
+          "tags": [
+            "facecleaner",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "cola_976441a1",
+          "tags": [
+            "cola",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 2577878765
+}

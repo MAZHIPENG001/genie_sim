@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "facecleaner_fa65dc0d": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "cylindrical",
+          "white",
+          "blue",
+          "printed",
+          "cosmetic"
+        ],
+        "dimensions": [
+          0.03400098532438278,
+          0.1400732398033142,
+          0.05983749404549599
+        ],
+        "full_description": [
+          "A white and blue gradient tube labeled 'Face Cleaner' with a green logo and Chinese text, featuring a white cap."
+        ],
+        "materials": [
+          "plastic",
+          "paper"
+        ],
+        "object_category": [
+          "cosmetic",
+          "face cleaner"
+        ],
+        "semantic_name": [
+          "face cleaner"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "facecleaner",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_f6b5904d",
+        "table_with_objects_8e6dee1d",
+        "facecleaner_fa65dc0d"
+      ],
+      "usd": "facecleaner",
+      "xyz": [
+        0.15,
+        0.2,
+        0.846
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        -0.158191,
+        0.987409
+      ]
+    },
+    "table_557549ab": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "round",
+          "modern",
+          "stable",
+          "stylish",
+          "elegant"
+        ],
+        "dimensions": [
+          1.1671121716499329,
+          1.145925521850586,
+          0.7762744277715683
+        ],
+        "full_description": [
+          "A round table with a light wood-grain top and a black pedestal base."
+        ],
+        "materials": [
+          "wood",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "round_table"
+        ],
+        "shape": "round",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_f6b5904d",
+        "table_with_objects_8e6dee1d",
+        "table_557549ab"
+      ],
+      "usd": "table_001",
+      "xyz": [
+        0.0,
+        0.0,
+        0.001
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "table_c9d33014": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "round",
+          "modern",
+          "stable",
+          "stylish",
+          "elegant"
+        ],
+        "dimensions": [
+          1.1671121716499329,
+          1.145925521850586,
+          0.7762744277715683
+        ],
+        "full_description": [
+          "A round table with a light wood-grain top and a black pedestal base."
+        ],
+        "materials": [
+          "wood",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "round_table"
+        ],
+        "shape": "round",
+        "unit": "m"
+      },
+      "keywords": [
+        "table_001",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_f6b5904d",
+        "table_with_objects_8e6dee1d",
+        "table_c9d33014"
+      ],
+      "usd": "table_001",
+      "xyz": [
+        0.15,
+        -0.2,
+        0.777
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        -0.564086,
+        0.825716
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_f6b5904d",
+          "target": "table_with_objects_8e6dee1d"
+        },
+        {
+          "source": "table_with_objects_8e6dee1d",
+          "target": "table_557549ab"
+        },
+        {
+          "source": "table_with_objects_8e6dee1d",
+          "target": "table_c9d33014"
+        },
+        {
+          "source": "table_with_objects_8e6dee1d",
+          "target": "facecleaner_fa65dc0d"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_f6b5904d"
+        },
+        {
+          "id": "table_with_objects_8e6dee1d"
+        },
+        {
+          "id": "table_557549ab",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "table_c9d33014",
+          "tags": [
+            "table_001",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "facecleaner_fa65dc0d",
+          "tags": [
+            "facecleaner",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 3925555702
+}

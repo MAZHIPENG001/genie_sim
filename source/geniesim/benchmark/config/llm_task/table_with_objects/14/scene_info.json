@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "apple_3a8d843b": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "round",
+          "ripe",
+          "smooth",
+          "juicy",
+          "fresh"
+        ],
+        "dimensions": [
+          0.0922,
+          0.0932,
+          0.0938
+        ],
+        "full_description": [
+          "A round apple with red and yellow skin, a short brown stem, and small white speckles."
+        ],
+        "materials": [
+          "fruit flesh",
+          "skin"
+        ],
+        "object_category": [
+          "fruit",
+          "pome"
+        ],
+        "semantic_name": [
+          "apple"
+        ],
+        "shape": "spherical",
+        "unit": "m"
+      },
+      "keywords": [
+        "apple",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_5a5f7961",
+        "table_with_objects_940e6137",
+        "apple_3a8d843b"
+      ],
+      "usd": "apple",
+      "xyz": [
+        0.15,
+        0.2,
+        0.823
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        -0.278103,
+        0.960551
+      ]
+    },
+    "facecleaner_63d9d772": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "cylindrical",
+          "white",
+          "blue",
+          "printed",
+          "cosmetic"
+        ],
+        "dimensions": [
+          0.03400098532438278,
+          0.1400732398033142,
+          0.05983749404549599
+        ],
+        "full_description": [
+          "A white and blue gradient tube labeled 'Face Cleaner' with a green logo and Chinese text, featuring a white cap."
+        ],
+        "materials": [
+          "plastic",
+          "paper"
+        ],
+        "object_category": [
+          "cosmetic",
+          "face cleaner"
+        ],
+        "semantic_name": [
+          "face cleaner"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "facecleaner",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_5a5f7961",
+        "table_with_objects_940e6137",
+        "facecleaner_63d9d772"
+      ],
+      "usd": "facecleaner",
+      "xyz": [
+        0.15,
+        -0.2,
+        0.846
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.990835,
+        0.135074
+      ]
+    },
+    "table_60d5f5f6": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "round",
+          "modern",
+          "stable",
+          "stylish",
+          "elegant"
+        ],
+        "dimensions": [
+          1.1671121716499329,
+          1.145925521850586,
+          0.7762744277715683
+        ],
+        "full_description": [
+          "A round table with a light wood-grain top and a black pedestal base."
+        ],
+        "materials": [
+          "wood",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "round_table"
+        ],
+        "shape": "round",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_5a5f7961",
+        "table_with_objects_940e6137",
+        "table_60d5f5f6"
+      ],
+      "usd": "table_001",
+      "xyz": [
+        0.0,
+        0.0,
+        0.001
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_5a5f7961",
+          "target": "table_with_objects_940e6137"
+        },
+        {
+          "source": "table_with_objects_940e6137",
+          "target": "table_60d5f5f6"
+        },
+        {
+          "source": "table_with_objects_940e6137",
+          "target": "facecleaner_63d9d772"
+        },
+        {
+          "source": "table_with_objects_940e6137",
+          "target": "apple_3a8d843b"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_5a5f7961"
+        },
+        {
+          "id": "table_with_objects_940e6137"
+        },
+        {
+          "id": "table_60d5f5f6",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "facecleaner_63d9d772",
+          "tags": [
+            "facecleaner",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "apple_3a8d843b",
+          "tags": [
+            "apple",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 461293945
+}

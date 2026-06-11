@@ -1,0 +1,10 @@
+strict digraph "" {
+	graph [rankdir=LR];
+	root_scene_c1d6f3b2 -> table_with_objects_c46097e7;
+	table_5cea2392	[tags="['table', 'workspace', 'desktop', 'legs', 'center']"];
+	table_with_objects_c46097e7 -> table_5cea2392;
+	sprite_d632fd91	[tags="['sprite', 'object', 'item', 'right', 'selected_0']"];
+	table_with_objects_c46097e7 -> sprite_d632fd91;
+	blocks_c3cb6e4c	[tags="['blocks', 'object', 'item', 'left', 'selected_1']"];
+	table_with_objects_c46097e7 -> blocks_c3cb6e4c;
+}

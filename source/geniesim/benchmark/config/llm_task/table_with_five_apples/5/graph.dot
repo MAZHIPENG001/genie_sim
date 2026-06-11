@@ -1,0 +1,17 @@
+strict digraph "" {
+	graph [rankdir=LR];
+	root_scene_a090e926 -> table_with_five_apples_e15b66e7;
+	table_with_five_apples_e15b66e7 -> place_apples_on_table_d3c90af5;
+	table_48aab059	[tags="['table', 'wood', 'dining_table', 'center']"];
+	place_apples_on_table_d3c90af5 -> table_48aab059;
+	apple_c2979d51	[tags="['apple', 'red', 'fruit', 'apple_1', 'right']"];
+	place_apples_on_table_d3c90af5 -> apple_c2979d51;
+	apple_f83dd4d8	[tags="['apple', 'red', 'fruit', 'apple_2', 'right']"];
+	place_apples_on_table_d3c90af5 -> apple_f83dd4d8;
+	apple_b6bcf464	[tags="['apple', 'red', 'fruit', 'apple_3', 'left']"];
+	place_apples_on_table_d3c90af5 -> apple_b6bcf464;
+	apple_4875b1a2	[tags="['apple', 'red', 'fruit', 'apple_4', 'left']"];
+	place_apples_on_table_d3c90af5 -> apple_4875b1a2;
+	apple_299368ab	[tags="['apple', 'red', 'fruit', 'apple_5', 'left']"];
+	place_apples_on_table_d3c90af5 -> apple_299368ab;
+}

@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "cola_10bd46fa": {
+      "description": {
+        "color": "red",
+        "descriptive_terms": [
+          "cylindrical",
+          "red",
+          "metallic",
+          "beverage",
+          "branded"
+        ],
+        "dimensions": [
+          0.0646,
+          0.1152,
+          0.0646
+        ],
+        "full_description": [
+          "A red aluminum soda can with white Chinese text and logo, featuring a silver top and bottom."
+        ],
+        "materials": [
+          "metal",
+          "plastic"
+        ],
+        "object_category": [
+          "container",
+          "beverage can"
+        ],
+        "semantic_name": [
+          "cola_can"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "cola",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_b630df22",
+        "table_with_objects_2a9888cc",
+        "cola_10bd46fa"
+      ],
+      "usd": "cola",
+      "xyz": [
+        -0.001,
+        -0.002,
+        0.058
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.878919,
+        0.476971
+      ]
+    },
+    "sprite_4ad30bc6": {
+      "description": {
+        "color": "green",
+        "descriptive_terms": [
+          "cylindrical",
+          "green",
+          "metallic",
+          "beverage",
+          "packaged"
+        ],
+        "dimensions": [
+          0.06593398749828339,
+          0.11382035911083221,
+          0.06569337099790573
+        ],
+        "full_description": [
+          "A green aluminum soda can with white Chinese characters and a silver pull-tab top."
+        ],
+        "materials": [
+          "metal",
+          "plastic"
+        ],
+        "object_category": [
+          "container",
+          "beverage container"
+        ],
+        "semantic_name": [
+          "sprite_can"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "sprite",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_b630df22",
+        "table_with_objects_2a9888cc",
+        "sprite_4ad30bc6"
+      ],
+      "usd": "sprite",
+      "xyz": [
+        -0.001,
+        -0.001,
+        0.058
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.752209,
+        0.658925
+      ]
+    },
+    "table_efbd5fd5": {
+      "description": {
+        "color": "white",
+        "descriptive_terms": [
+          "simple",
+          "modern",
+          "compact",
+          "stable",
+          "functional"
+        ],
+        "dimensions": [
+          0.1687,
+          0.0668,
+          0.0668
+        ],
+        "full_description": [
+          "A white rectangular table with a flat top and four slender legs, viewed from multiple angles."
+        ],
+        "materials": [
+          "plastic",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "table"
+        ],
+        "shape": "rectangular",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_b630df22",
+        "table_with_objects_2a9888cc",
+        "table_efbd5fd5"
+      ],
+      "usd": "table_000",
+      "xyz": [
+        0.0,
+        0.0,
+        0.367
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_b630df22",
+          "target": "table_with_objects_2a9888cc"
+        },
+        {
+          "source": "table_with_objects_2a9888cc",
+          "target": "table_efbd5fd5"
+        },
+        {
+          "source": "table_with_objects_2a9888cc",
+          "target": "sprite_4ad30bc6"
+        },
+        {
+          "source": "table_with_objects_2a9888cc",
+          "target": "cola_10bd46fa"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_b630df22"
+        },
+        {
+          "id": "table_with_objects_2a9888cc"
+        },
+        {
+          "id": "table_efbd5fd5",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "sprite_4ad30bc6",
+          "tags": [
+            "sprite",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "cola_10bd46fa",
+          "tags": [
+            "cola",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 1457430769
+}

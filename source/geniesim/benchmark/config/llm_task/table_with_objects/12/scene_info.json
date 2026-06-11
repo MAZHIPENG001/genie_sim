@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "facecleaner_5d9320f3": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "cylindrical",
+          "white",
+          "blue",
+          "printed",
+          "cosmetic"
+        ],
+        "dimensions": [
+          0.03400098532438278,
+          0.1400732398033142,
+          0.05983749404549599
+        ],
+        "full_description": [
+          "A white and blue gradient tube labeled 'Face Cleaner' with a green logo and Chinese text, featuring a white cap."
+        ],
+        "materials": [
+          "plastic",
+          "paper"
+        ],
+        "object_category": [
+          "cosmetic",
+          "face cleaner"
+        ],
+        "semantic_name": [
+          "face cleaner"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "facecleaner",
+        "object",
+        "item",
+        "right",
+        "selected_0"
+      ],
+      "tags": [
+        "root_scene_9200c9bb",
+        "table_with_objects_524107c0",
+        "facecleaner_5d9320f3"
+      ],
+      "usd": "facecleaner",
+      "xyz": [
+        0.15,
+        -0.2,
+        0.846
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.872615,
+        0.488408
+      ]
+    },
+    "sprite_55244738": {
+      "description": {
+        "color": "green",
+        "descriptive_terms": [
+          "cylindrical",
+          "green",
+          "metallic",
+          "beverage",
+          "packaged"
+        ],
+        "dimensions": [
+          0.06593398749828339,
+          0.11382035911083221,
+          0.06569337099790573
+        ],
+        "full_description": [
+          "A green aluminum soda can with white Chinese characters and a silver pull-tab top."
+        ],
+        "materials": [
+          "metal",
+          "plastic"
+        ],
+        "object_category": [
+          "container",
+          "beverage container"
+        ],
+        "semantic_name": [
+          "sprite_can"
+        ],
+        "shape": "cylindrical",
+        "unit": "m"
+      },
+      "keywords": [
+        "sprite",
+        "object",
+        "item",
+        "left",
+        "selected_1"
+      ],
+      "tags": [
+        "root_scene_9200c9bb",
+        "table_with_objects_524107c0",
+        "sprite_55244738"
+      ],
+      "usd": "sprite",
+      "xyz": [
+        0.15,
+        0.198,
+        0.834
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.967691,
+        -0.252138
+      ]
+    },
+    "table_1eb11ac9": {
+      "description": {
+        "color": "colorful",
+        "descriptive_terms": [
+          "round",
+          "modern",
+          "stable",
+          "stylish",
+          "elegant"
+        ],
+        "dimensions": [
+          1.1671121716499329,
+          1.145925521850586,
+          0.7762744277715683
+        ],
+        "full_description": [
+          "A round table with a light wood-grain top and a black pedestal base."
+        ],
+        "materials": [
+          "wood",
+          "metal"
+        ],
+        "object_category": [
+          "furniture",
+          "table"
+        ],
+        "semantic_name": [
+          "round_table"
+        ],
+        "shape": "round",
+        "unit": "m"
+      },
+      "keywords": [
+        "table",
+        "workspace",
+        "desktop",
+        "legs",
+        "center"
+      ],
+      "tags": [
+        "root_scene_9200c9bb",
+        "table_with_objects_524107c0",
+        "table_1eb11ac9"
+      ],
+      "usd": "table_001",
+      "xyz": [
+        0.0,
+        0.0,
+        0.001
+      ],
+      "xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "relations": {
+    "graph": {
+      "directed": true,
+      "edges": [
+        {
+          "source": "root_scene_9200c9bb",
+          "target": "table_with_objects_524107c0"
+        },
+        {
+          "source": "table_with_objects_524107c0",
+          "target": "table_1eb11ac9"
+        },
+        {
+          "source": "table_with_objects_524107c0",
+          "target": "facecleaner_5d9320f3"
+        },
+        {
+          "source": "table_with_objects_524107c0",
+          "target": "sprite_55244738"
+        }
+      ],
+      "graph": {
+        "rankdir": "LR"
+      },
+      "multigraph": false,
+      "nodes": [
+        {
+          "id": "root_scene_9200c9bb"
+        },
+        {
+          "id": "table_with_objects_524107c0"
+        },
+        {
+          "id": "table_1eb11ac9",
+          "tags": [
+            "table",
+            "workspace",
+            "desktop",
+            "legs",
+            "center"
+          ]
+        },
+        {
+          "id": "facecleaner_5d9320f3",
+          "tags": [
+            "facecleaner",
+            "object",
+            "item",
+            "right",
+            "selected_0"
+          ]
+        },
+        {
+          "id": "sprite_55244738",
+          "tags": [
+            "sprite",
+            "object",
+            "item",
+            "left",
+            "selected_1"
+          ]
+        }
+      ]
+    }
+  },
+  "scene_id": "table_with_objects",
+  "seed": 1352444623
+}

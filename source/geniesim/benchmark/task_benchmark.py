@@ -69,6 +69,8 @@ class TaskBenchmark(object):
         tasks = sorted(
             [
                 os.path.splitext(item)[0]
+                # system_utils.benchmark_conf_path() 是
+                # "source/geniesim/benchmark/config"
                 for item in os.listdir(os.path.join(system_utils.benchmark_conf_path(), "eval_tasks"))
             ]
         )
@@ -91,6 +93,8 @@ class TaskBenchmark(object):
         self.config_task()
         for task in self.tasks:
             # load task config
+            # 1.table_task_g1（主环境与机器人设定）放在了哪里？
+            # 在evaluate_policy()方法中，代码根据task_name加载了一个主配置文件：
             task_config_file = os.path.join(system_utils.benchmark_conf_path(), "eval_tasks", task + ".json")
             robot_init_pose_file = os.path.join(system_utils.benchmark_conf_path(), "robot_init_pose.json")
             self.task_config = system_utils.load_json(task_config_file)
@@ -308,6 +312,13 @@ class TaskBenchmark(object):
             self.task_config["robot"]["robot_init_pose"]["quaternion"],
             sub_usd_path,
         )
+        # self.api_core.init_robot_cfg(
+        #     robot_cfg,  # 告诉引擎加载哪个机器人 (G1)
+        #     self.task_config["scene"]["scene_usd"],  # 告诉引擎加载哪个主场景 (桌子)
+        #     self.task_config["robot"]["robot_init_pose"]["position"],  # 机器人的出生位置
+        #     self.task_config["robot"]["robot_init_pose"]["quaternion"],  # 机器人的初始朝向
+        #     sub_usd_path,  # 告诉引擎加载哪些交互物体 (彩色方块)
+        # )
 
         scene_info = None
         if self.args.sub_task_name == "":

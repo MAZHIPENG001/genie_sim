@@ -158,7 +158,9 @@ TASK_MAPPING = {
         "background": {"G2": "kitchen_00_g2"},
         "eval_dims": {"manip": "pick_place", "cognition": "semantic"},
     },
-    "heat_food": {"background": {"G2": "kitchen_01_g2"}, "eval_dims": "long-horizon"},
+    "heat_food": {
+        "background": {"G2": "kitchen_01_g2"},
+        "eval_dims": "long-horizon"},
     "hold_pot": {
         "background": {"G2": "kitchen_02_g2"},
         "eval_dims": {"manip": "bimanual_hold", "cognition": "semantic"},
