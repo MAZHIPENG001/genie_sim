@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6662f8d8-7231-4b22-b5e2-71322a22c762" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/source/geniesim/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/app/robot_cfg/G2_omnipicker.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/app/robot_cfg/G2_omnipicker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/benchmark/config/task_config_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/benchmark/config/task_config_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/benchmark/task_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/benchmark/task_benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/config/teleop.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/config/teleop.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/generator/LLM_RESULT.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/generator/LLM_RESULT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/generator/config/openwebui.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/generator/config/openwebui.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/geniesim/generator/server/mcp_text_embedding/text_embedding_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/geniesim/generator/server/mcp_text_embedding/text_embedding_config.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/source/geniesim/generator/LLM_RESULT.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EKjBKs1D2Qb8KOyY9MwzKH0F7j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/ma/.local/share/JetBrains/PyCharm2026.1/Shell Script/shellcheck&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ma/GithubDoc/MemoryVLA&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/geniesim/generator" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6662f8d8-7231-4b22-b5e2-71322a22c762" name="更改" comment="" />
+      <created>1779934019103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779934019103</updated>
+      <workItem from="1779934020137" duration="8486000" />
+      <workItem from="1779950534251" duration="32000" />
+      <workItem from="1779961947106" duration="1741000" />
+      <workItem from="1780020216927" duration="1205000" />
+      <workItem from="1780022332223" duration="6007000" />
+      <workItem from="1780037449665" duration="12003000" />
+      <workItem from="1780108023584" duration="33000" />
+      <workItem from="1780130504642" duration="543000" />
+      <workItem from="1780146824356" duration="7978000" />
+      <workItem from="1780276178706" duration="2803000" />
+      <workItem from="1780279500449" duration="1427000" />
+      <workItem from="1780282783452" duration="13050000" />
+      <workItem from="1780556739934" duration="621000" />
+      <workItem from="1780564629243" duration="2344000" />
+      <workItem from="1780624078233" duration="3204000" />
+      <workItem from="1780629139089" duration="16837000" />
+      <workItem from="1780710397106" duration="19000" />
+      <workItem from="1780882399376" duration="11069000" />
+      <workItem from="1781055883796" duration="444000" />
+      <workItem from="1781073798108" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

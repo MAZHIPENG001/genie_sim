@@ -1,0 +1,466 @@
+====================================================
+               ROS 2 节点信息报告
+ 生成时间: 2026-06-10 08:01:25
+====================================================
+
+========== 节点: /teleop_node ==========
+[发布者 Publishers]:
+  - 名称: /debug/retarget
+    类型: ['geometry_msgs/msg/Pose']
+  - 名称: /joint_command
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+  - 名称: /sim/is_recording
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/playback_flag
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /wbc/retarget
+    类型: ['geniesim_msg/msg/GeniesimReactiveControl']
+
+[订阅者 Subscribers]:
+  - 名称: /clock
+    类型: ['rosgraph_msgs/msg/Clock']
+  - 名称: /joint_states
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /tf
+    类型: ['tf2_msgs/msg/TFMessage']
+  - 名称: /tf_static
+    类型: ['tf2_msgs/msg/TFMessage']
+
+[服务端 Services]:
+  - 名称: /teleop_node/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /teleop_node/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /teleop_node/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /teleop_node/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /teleop_node/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /teleop_node/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /teleop_node/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /quark_ros_2100 ==========
+[发布者 Publishers]:
+  - 名称: /hal/joint_cmd
+    类型: ['geniesim_msg/msg/GeniesimJointCommand']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+
+[订阅者 Subscribers]:
+  - 名称: /hal/joint_state
+    类型: ['geniesim_msg/msg/GeniesimJointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /wbc/retarget
+    类型: ['geniesim_msg/msg/GeniesimReactiveControl']
+
+[服务端 Services]:
+  - 名称: /quark_ros_2100/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /quark_ros_2100/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /quark_ros_2100/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /quark_ros_2100/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /quark_ros_2100/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /quark_ros_2100/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /quark_ros_2100/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /bridge_sender ==========
+[发布者 Publishers]:
+  - 名称: /hal/joint_state
+    类型: ['geniesim_msg/msg/GeniesimJointState']
+  - 名称: /joint_command
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+
+[订阅者 Subscribers]:
+  - 名称: /hal/joint_cmd
+    类型: ['geniesim_msg/msg/GeniesimJointCommand']
+  - 名称: /joint_states
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /sim/playback_flag
+    类型: ['std_msgs/msg/Bool']
+
+[服务端 Services]:
+  - 名称: /bridge_sender/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /bridge_sender/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /bridge_sender/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /bridge_sender/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /bridge_sender/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /bridge_sender/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /bridge_sender/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /bridge_receiver ==========
+[发布者 Publishers]:
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  - 名称: /bridge_receiver/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /bridge_receiver/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /bridge_receiver/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /bridge_receiver/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /bridge_receiver/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /bridge_receiver/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /bridge_receiver/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /_RobotJointStateActionGraph_SubscriberJointState ==========
+[发布者 Publishers]:
+  (无)
+
+[订阅者 Subscribers]:
+  - 名称: /joint_command
+    类型: ['sensor_msgs/msg/JointState']
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /genie_sim/_Render_PostProcess_SDGPipeline_Replicator_03_NodeWriterWriter ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/head_front_Camera_depth
+    类型: ['sensor_msgs/msg/Image']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /genie_sim/_Render_PostProcess_SDGPipeline_Replicator_02_NodeWriterWriter ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/Right_Camera_depth
+    类型: ['sensor_msgs/msg/Image']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /genie_sim/_Render_PostProcess_SDGPipeline_Replicator_01_NodeWriterWriter ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/Left_Camera_depth
+    类型: ['sensor_msgs/msg/Image']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /genie_sim/_Render_PostProcess_SDGPipeline_Replicator_NodeWriterWriter ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/Camera_depth
+    类型: ['sensor_msgs/msg/Image']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /geniesim_sensor_node ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/head_front_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/left_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/right_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /joint_states
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /joint_states_ee
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+  - 名称: /tf
+    类型: ['tf2_msgs/msg/TFMessage']
+  - 名称: /tf_static
+    类型: ['tf2_msgs/msg/TFMessage']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  - 名称: /geniesim_sensor_node/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /geniesim_sensor_node/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /geniesim_sensor_node/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /geniesim_sensor_node/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /geniesim_sensor_node/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /geniesim_sensor_node/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /geniesim_sensor_node/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /pi_node ==========
+[发布者 Publishers]:
+  - 名称: /genie_sim/dynamic_info
+    类型: ['std_msgs/msg/String']
+  - 名称: /joint_command
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /record/camera_rgb
+    类型: ['sensor_msgs/msg/CompressedImage']
+  - 名称: /record/episode_done
+    类型: ['std_msgs/msg/String']
+  - 名称: /record/head_camera_rgb
+    类型: ['sensor_msgs/msg/CompressedImage']
+  - 名称: /record/head_front_camera_rgb
+    类型: ['sensor_msgs/msg/CompressedImage']
+  - 名称: /record/left_camera_rgb
+    类型: ['sensor_msgs/msg/CompressedImage']
+  - 名称: /record/right_camera_rgb
+    类型: ['sensor_msgs/msg/CompressedImage']
+  - 名称: /record/static_info
+    类型: ['std_msgs/msg/String']
+  - 名称: /record/sub_task_name
+    类型: ['std_msgs/msg/String']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+  - 名称: /sim/playback_flag
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/reset_flag
+    类型: ['std_msgs/msg/Bool']
+
+[订阅者 Subscribers]:
+  - 名称: /clock
+    类型: ['rosgraph_msgs/msg/Clock']
+  - 名称: /genie_sim/camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/head_camera_depth
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/head_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/head_front_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/left_camera_depth
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/left_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/right_camera_depth
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /genie_sim/right_camera_rgb
+    类型: ['sensor_msgs/msg/Image']
+  - 名称: /joint_states
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /record/episode_ack
+    类型: ['std_msgs/msg/String']
+  - 名称: /sim/infer_start
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/instruction
+    类型: ['std_msgs/msg/String']
+  - 名称: /sim/reset
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/shuffle
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /tf
+    类型: ['tf2_msgs/msg/TFMessage']
+
+[服务端 Services]:
+  - 名称: /pi_node/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /pi_node/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /pi_node/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /pi_node/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /pi_node/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /pi_node/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /pi_node/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /server_ros_node ==========
+[发布者 Publishers]:
+  - 名称: /clock
+    类型: ['rosgraph_msgs/msg/Clock']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+
+[订阅者 Subscribers]:
+  - 名称: /clock
+    类型: ['rosgraph_msgs/msg/Clock']
+  - 名称: /sim/is_recording
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/playback_flag
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/reset_flag
+    类型: ['std_msgs/msg/Bool']
+
+[服务端 Services]:
+  - 名称: /server_ros_node/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /server_ros_node/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /server_ros_node/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /server_ros_node/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /server_ros_node/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /server_ros_node/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /server_ros_node/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /_ros2cli_daemon_0_297aaf01fb804cec8c0a1991d22b0936 ==========
+[发布者 Publishers]:
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+
+[订阅者 Subscribers]:
+  (无)
+
+[服务端 Services]:
+  (无)
+
+[客户端 Clients]:
+  (无)
+====================================================
+
+========== 节点: /teleop_node ==========
+[发布者 Publishers]:
+  - 名称: /debug/retarget
+    类型: ['geometry_msgs/msg/Pose']
+  - 名称: /joint_command
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /parameter_events
+    类型: ['rcl_interfaces/msg/ParameterEvent']
+  - 名称: /rosout
+    类型: ['rcl_interfaces/msg/Log']
+  - 名称: /sim/is_recording
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /sim/playback_flag
+    类型: ['std_msgs/msg/Bool']
+  - 名称: /wbc/retarget
+    类型: ['geniesim_msg/msg/GeniesimReactiveControl']
+
+[订阅者 Subscribers]:
+  - 名称: /clock
+    类型: ['rosgraph_msgs/msg/Clock']
+  - 名称: /joint_states
+    类型: ['sensor_msgs/msg/JointState']
+  - 名称: /tf
+    类型: ['tf2_msgs/msg/TFMessage']
+  - 名称: /tf_static
+    类型: ['tf2_msgs/msg/TFMessage']
+
+[服务端 Services]:
+  - 名称: /teleop_node/describe_parameters
+    类型: ['rcl_interfaces/srv/DescribeParameters']
+  - 名称: /teleop_node/get_parameter_types
+    类型: ['rcl_interfaces/srv/GetParameterTypes']
+  - 名称: /teleop_node/get_parameters
+    类型: ['rcl_interfaces/srv/GetParameters']
+  - 名称: /teleop_node/get_type_description
+    类型: ['type_description_interfaces/srv/GetTypeDescription']
+  - 名称: /teleop_node/list_parameters
+    类型: ['rcl_interfaces/srv/ListParameters']
+  - 名称: /teleop_node/set_parameters
+    类型: ['rcl_interfaces/srv/SetParameters']
+  - 名称: /teleop_node/set_parameters_atomically
+    类型: ['rcl_interfaces/srv/SetParametersAtomically']
+
+[客户端 Clients]:
+  (无)
+====================================================
